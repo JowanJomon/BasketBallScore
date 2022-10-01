@@ -1,0 +1,63 @@
+@import url("https://fonts.cdnfonts.com/css/roblox-new");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "score";
+  src: url("/assets/fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+  font-family: "Gotham Black", sans-serif;
+  background-color: rgb(16, 16, 61);
+  background-image: url("https://wallpaperaccess.com/full/1743959.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+h1 {
+  color: aliceblue;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(93, 92, 92);
+  height: 300px;
+  width: 700px;
+}
+.card {
+  margin-top: 20px;
+  height: 110px;
+  width: fit-content;
+  background-color: black;
+  text-align: center;
+}
+.point {
+  font-family: "score";
+  color: brown;
+  font-size: 90px;
+  padding-top: 10px;
+}
+.button {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px;
+  color: aliceblue;
+  background-color: rgb(21, 47, 153);
+  border: solid 1px white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#newgame {
+  background-color: black;
+  font-family: "Gotham Black", sans-serif;
+}
