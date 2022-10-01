@@ -81,10 +81,11 @@ h1 {
     padding-top: 30px;
   }
   .guest {
-    margin-top: 90px;
+    padding: 0;
+    margin-top: 200px;
   }
   .guest h1 {
-    padding-top: 130px;
+    margin-top: 90px;
   }
   .container {
     display: flex;
