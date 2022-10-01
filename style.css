@@ -61,3 +61,69 @@ h1 {
   background-color: black;
   font-family: "Gotham Black", sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Gotham Black", sans-serif;
+    background-color: rgb(16, 16, 61);
+    background-image: none;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+  h1 {
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  .guest {
+    margin-top: 90px;
+  }
+  .guest h1 {
+    padding-top: 100px;
+  }
+  .container {
+    display: flex;
+    padding-top: 0px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(93, 92, 92);
+    height: 10px;
+    width: 300px;
+    margin-bottom: 90px;
+  }
+  .card {
+    height: 60px;
+    width: 100px;
+    background-color: black;
+    text-align: center;
+  }
+  .point {
+    font-family: "score";
+    color: brown;
+    font-size: 40px;
+    padding-top: 10px;
+  }
+  .button {
+    font-size: 15px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(21, 47, 153);
+    border: solid 1px white;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  #newgame {
+    background-color: black;
+    font-family: "Gotham Black", sans-serif;
+    margin-top: 200px;
+  }
+}
