@@ -1,6 +1,8 @@
-# Ticket Counter
+# Basket Ball Score Card App
 
-A website that counts the number of people can be used by anyone
-Mobile freiendly
+A website that can be used to track score of a game
 Built using HTML CSS and JS
-Built By Jowan Mnjooran Jomon
+Built By Jowan Majooran Jomon
+
+v1
+Includes point add, reset points for each team and new game
