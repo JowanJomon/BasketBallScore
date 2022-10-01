@@ -73,6 +73,7 @@ h1 {
     background-image: none;
     background-size: cover;
     height: 100%;
+    text-align: center;
   }
   h1 {
     color: aliceblue;
